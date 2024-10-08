@@ -1,0 +1,76 @@
+
+
+.index {
+    background-color: white;
+    color: black;
+    width: 100%; /* Use full width */
+    max-width: 600px; /* Set a maximum width for the container */
+    padding: 20px; /* Use consistent padding */
+    margin: 0 auto; /* Center horizontally */
+    font-size: 50px;
+    font-weight: 500;
+    border: 10px solid white; /* Add border for visibility */
+    text-align: center; /* Center text */
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 5px; /* Add horizontal margin between links */
+}
+
+a:hover {
+    background-color: slateblue;
+    color: black;
+}
+
+.previous, .next {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.navigation {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items */
+    margin-top: 20px; /* Add space above the navigation */
+}
+
+.round {
+    padding: 8px 16px; /* Consistent padding */
+    margin: 0 10px; /* Add margin for spacing */
+    text-align: center; /* Center text */
+}
+.form-container {
+    
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px; /* Add some space above the form */
+}
+
+input {
+    
+    padding: 10px; /* Add some padding for input */
+    font-size: 20px; /* Adjust font size for readability */
+    margin-bottom: 10px; /* Space between input and button */
+}
+
+button {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 20px; /* Adjust font size for readability */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.feedback {
+    font-size: 20px; /* Match the font size to that of the submit button */
+    margin-top: 10px; /* Space above the feedback message */
+    color: white; /* Change text color to white */
+    background-color: slateblue; /* Add a contrasting background color */
+    padding: 10px; /* Add some padding to the feedback area */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+label{
+    font-size: 25px;
+    color: white;
+}
