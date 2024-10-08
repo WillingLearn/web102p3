@@ -1,10 +1,10 @@
 # Web Development Project 3 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by:Ethan
 
-This web app: **insert description**
+This web app: Legs Trivia
 
-Time spent: **X** hours spent in total
+Time spent: **1-2** hours spent in total
 
 ## Required Features
 
